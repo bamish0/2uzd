@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="1styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz Game</h1>
+            <p class="score">Punkti: <span id="score">0</span></p>
+        </header>
+        <main id="quiz">
+            <h2 id="question">Jautājums šeit</h2>
+            <div id="answers" class="answers">
+                <button class="answer-btn">Atbilde 1</button>
+                <button class="answer-btn">Atbilde 2</button>
+                <button class="answer-btn">Atbilde 3</button>
+                <button class="answer-btn">Atbilde 4</button>
+            </div>
+        </main>
+        <div id="results" class="hidden">
+            <h2>Rezultāti</h2>
+            <p>Jūsu rezultāts: <span id="result-score">0</span> no 10</p>
+            <button id="restart">Restartēt</button>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
